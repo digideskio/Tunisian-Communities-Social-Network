@@ -17,4 +17,7 @@ these communities.
 - Have fun most of all, and hopefully while building a community social network, we can build our little own community of builders.
 - ???
 
--Deploy this for alpha testing.
+- Deploy this for alpha testing.
+
+
+Don't hesitate to start an issue in order to raise a point or start a discussion.
