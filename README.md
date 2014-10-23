@@ -15,7 +15,7 @@ Basically we need to make a place where people would sign-up to communities that
 
 ## Contributing
 
-If you want to contribute please refer to [this contribution guide](https://github.com/RaedsLab/Tunisia-Communities-Social-Network/blob/master/CONTRIBUTING.md).
+If you want to contribute please refer to [this contribution guide](https://github.com/RaedsLab/Tunisian-Communities-Social-Network/blob/master/CONTRIBUTING.md).
 
 If you want to take part of the discussion leading this project, refer to the [issues](https://github.com/RaedsLab/Tunisian-Communities-Social-Network/issues).
 
