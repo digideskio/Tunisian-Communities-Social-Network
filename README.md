@@ -4,13 +4,11 @@ A project managed and developed for/by different communities.
 
 
 
-```
 A project with a purpose to group Tunisian communities and deliver their events to the interested people in order to spread the information in a more efficient way.
 
 Basically we need to make a place where people would sign-up to communities that they're interested in and then get updates from these communities.
 
 
-```
 ###### The mission statement above could use a little improvement
 
 
