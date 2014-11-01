@@ -21,9 +21,19 @@ Next you need to install [Composer](https://getcomposer.org) (the dependency man
 curl -sS https://getcomposer.org/installer | php
 ```
 
-For comodity move composer to `/usr/local/bin/`:
+For commodity move composer to `/usr/local/bin/`:
 ```bash
 sudo mv composer.phar /usr/local/bin/composer
+```
+
+You need to install nodejs:
+```bash
+curl -sL https://deb.nodesource.com/setup | sudo bash - && sudo apt-get install -y nodejs
+```
+
+We're using bower as dependency manager for front-end developement and grunt to automate the build process:
+```bash
+sudo -H npm install -g grunt-cli bower
 ```
 
 ## Pull requests
@@ -61,16 +71,29 @@ git push origin <topic-branch-name>
 
 [Open a Pull Request](https://help.github.com/articles/using-pull-requests/) with a clear title and description against the master branch.
 
-## Optional: Using ungit to enhance the workflow with git
-
-You have to install node.js:
+After that your topic branch has been pulled successfully you may delete it locally:
 ```bash
-sudo add-apt-repository ppa:chris-lea/node.js
-sudo apt-get update
-sudo apt-get install nodejs
+git branch -d <topic-branch-name>
 ```
 
-Then install [ungit](https://github.com/FredrikNoren/ungit) globally using npm:
+And from your remote fork:
+```bash
+git push origin --delete <topic-branch-name>
+```
+
+Update your local clone:
+```bash
+git pull upstream master
+```
+
+Then push to your fork:
+```bash
+git push origin
+```
+
+## Optional: Using ungit to enhance the workflow with git
+
+To install [ungit](https://github.com/FredrikNoren/ungit) globally using npm:
 ```bash
 sudo -H npm install -g ungit
 ```
@@ -81,4 +104,4 @@ Some good ungit video tutorials:
 
 ## License
 
-By contributing your code, you agree to license your contribution under [the GNU GPL version 3](https://github.com/RaedsLab/Tunisian-Communities-Social-Network/blob/master/LICENSE).
+By contributing your code, you agree to license your contribution under the [GNU GPL version 3](https://github.com/RaedsLab/Tunisian-Communities-Social-Network/blob/master/LICENSE).
