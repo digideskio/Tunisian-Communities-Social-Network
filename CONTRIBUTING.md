@@ -8,6 +8,26 @@ Please take a moment to review this document in order to make the contribution p
 
 The [issue tracker](https://github.com/RaedsLab/Tunisian-Communities-Social-Network/issues) is the preferred channel for bug reports, features requests and submitting pull requests.
 
+
+##Starting with Symfony2
+
+If you're new to Symfony2, you can start contributing just after a few clicks:
+
+* Download the latest (.zip) version of Symfony from [here](http://symfony.com/download) 
+* I recommend using [Netbeans IDE](https://netbeans.org/downloads/index.html) (PHP). It has one of the best Symfony plugins.
+
+####Step1: 
+Create a new PHP project and select Symfony2 as a framework.
+####Step2:
+Remove the `ACME` bundle.
+####Step3:
+Download this project under `/src`  
+####Step4:
+Create and update your database using `Doctrine`  
+
+(This is a basic starter guide that needs details and improvements, feel free to contribute)
+
+
 ## Installing development environment under Ubuntu 14.04
 
 Start by installing those dependancies:
