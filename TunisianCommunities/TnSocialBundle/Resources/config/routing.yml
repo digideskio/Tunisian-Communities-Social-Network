@@ -1,0 +1,3 @@
+tunisian_communities_tn_social_homepage:
+    path:     /hello/{name}
+    defaults: { _controller: TunisianCommunitiesTnSocialBundle:Default:index }
